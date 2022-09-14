@@ -1,0 +1,125 @@
+html, body{
+    height: 100%;
+    }
+#div_geral{
+    background-color: #0E2C40;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+#main {
+    color: #0E2C40;
+    background-color: white; 
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+#formulario{
+    background-color: #173a58;
+    width: 550px;
+    height: 500px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.button-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    }
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 13px;
+    }
+    
+.button{
+    color: white;
+    width: 50%;
+    border: 0;
+    border-radius: 3px;
+    background: #29679c;
+    padding: 5px;
+    }
+
+.buttonCadastro{
+    text-align: center;
+    color: white;
+    width: 50%;
+    border: 0;
+    border-radius: 3px;
+    background: #29679c;
+    padding: 5px;
+    }
+        
+.input-field .validate  {
+    color: white;
+    }
+    
+.input-field .label{
+    color: white;
+    }
+    
+.input-field {
+    padding: 0px;
+    width: 50%;      
+    }
+
+.button:hover{
+    transform: scale(1.05);
+    background-color: #3c91db;
+    }
+
+#voltar{
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 85%;
+    }
+
+ #titulo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Helvetica;
+    color: white;
+ }
+
+  #people-outline{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 0%;
+    font-size:  100px;
+    }
+
+#button_login{
+    color: white;
+    width: 70%;
+    border: 1px;
+    border-radius: 3px;
+    background: #29679c;
+    box-sizing: border-box;
+    padding: 5px;
+    }
+
+#button_login:hover{
+    transform: scale(1.05);
+    background-color: #3c91db;
+    }

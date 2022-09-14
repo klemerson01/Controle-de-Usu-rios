@@ -1,0 +1,115 @@
+html, body{
+    height: 100%;
+    }
+#div_geral{
+    background-color: #0E2C40;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    }
+#main {
+    color: #0E2C40;
+    background-color: #173a58; 
+    width: 550px;
+    height: 500px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+#formulario{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0E2C40;
+    }
+#titulo{
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Helvetica;
+    }
+    
+    
+
+.button{
+    color: white;
+    width: 50%;
+    border: 0;
+    border-radius: 3px;
+    background: #29679c;
+    box-sizing: border-box;
+    padding: 3px;
+    }
+
+.input-field .validate  {
+    color:white;
+    } 
+#label{
+    color: white;
+    }
+    
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+     
+.form .cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5ch;
+    padding-top: 20px;
+    color: white;
+    }
+  
+.form .cadastro a {
+    color: #3c91db;
+    text-decoration: none;
+    }
+    
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+.button:hover{
+    transform: scale(1.05);
+    background-color: #3c91db;
+    }
+
+#people-outline{
+    color: #173a58;
+    font-size:  100px;
+    }
+
+#testet{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#titulo_main{
+    width: 80%;
+    text-align: center;
+}

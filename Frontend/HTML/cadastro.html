@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Cadastro</title>
+</head>
+<body >
+    <div id="div_geral">
+        <div id="main">
+            <div><ion-icon id="people-outline" name="people-outline"></ion-icon></div>
+            <div><h5 id="titulo_main">Olá, Seja Bem Vindo</h5>
+            <h7>Caso tenha cadastro é so fazer login</h7>
+            <a class="button-login" href="login.html"><button id="button_login">Login</button> </a>
+            </div>
+        </div>
+        <div >
+            <form id="formulario" action="get">
+            <h5 id="titulo">Cadastre-se</h5>
+                <div class="input-field input ">
+                    <input id="nome_cad" type="text" class="validate">
+                    <label class="label" for="nome_cad">
+                        <ion-icon name="person-outline"></ion-icon>
+                        &nbsp;Nome
+                </label>
+                </div>
+                <div class="input-field input ">
+                    <input id="email_cad" type="text" class="validate">
+                    <label class="label" for="email_cad">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        &nbsp;Email
+                    </label>
+                </div>
+                <div class="input-field input ">
+                    <input id="senha_cad" type="password" class="validate">
+                    <label class="label" for="senha_cad">
+                        <ion-icon name="key-outline"></ion-icon>
+                        &nbsp;Senha
+                    </label>
+                </div>
+
+                    <a class="buttonCadastro" href="home.html">Cadastro
+                    <!-- <button type="submit" class="button">Cadastrar</button> -->
+                </a>
+                
+            </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>

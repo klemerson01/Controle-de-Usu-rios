@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div id="div_geral">
+        <div id="main">
+            <form action="get" class="form" >
+                <div id="login" >
+                    <h5 id="titulo">Faça seu login</h5>
+                    <div class="input-field input ">
+                        <input id="user" type="text" class="validate">
+                        <label id="label" for="user"> 
+                            <ion-icon name="person-outline"></ion-icon>
+                            &nbsp;Usuario
+                        </label>
+                    </div>
+                    
+                    <div class="input-field  input">
+                        <input id="password" type="password" class="validate">
+                        <label id="label" for="password">
+                            <ion-icon name="key-outline"></ion-icon>
+                            &nbsp;Senha
+                        </label>
+                    </div>
+                    
+                    <div class="back">
+                        <a href="home.html" class="button" type="submit">Entrar</a>
+                       <!-- <a href="cadastro.html"> <button class="button">Entrar</button> </a> -->
+                    </div> 
+                    <p class="cadastro">Não tem cadastro?&nbsp;<a href="cadastro.html">&nbsp;Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+        <div id="formulario">
+            <div><ion-icon id="people-outline" name="log-in-outline"></ion-icon></div>
+            <div id="testet"><h5 id="titulo_main">Acesse e organize seus usuários de uma forma simples e prática !</h5></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
